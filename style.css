@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
+
+
+/* Color styles */
+:root{
+
+    --dark--blue: hsla(218, 22.9%, 16.3%, 1);
+    --dark--grayish--blue: hsla(217, 19%, 23.7%, 1);
+    --grayish--blue: hsla(217, 19%, 38.2%, 1);
+    --light--cyan: hsla(193, 38%, 86.1%, 1);
+    --neon--green: hsla(150, 100%, 66.3%, 1);
+
+    /* Text-size styles */
+    --quote: 28px;
+    --heading: 13px;
+}
+
+main{
+    /* max-width: 1440px; */
+    min-height: 100vh;
+    background: var(--dark--blue);
+}
+
+.card-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    max-width: 540px;
+    min-width: 343px;
+    background: var(--dark--grayish--blue);
+    height: 332px;
+    left: 31%;
+    right: 31%;
+    top: 27.5%;
+    padding: 48px 48px 0 48px;
+    overflow-y: visible;
+}
+
+.advice-id{
+  height: 18px;
+  color: var(--neon--green);
+  font-weight: 800;
+  font-size: var(--heading);
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 4.08571px;
+  margin-bottom: 24px;
+
+}
+
+.advice{
+  color: var(--light--cyan);
+  font-weight: 800;
+  font-size: var(--quote);
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  margin-bottom: 40px;
+}
+
+.quote-icon{
+  background: url(/images/pattern-divider-desktop.svg) no-repeat center center/cover;
+  /* width: 444px; */
+  width: 100%;
+  height: 16px;
+  margin-bottom: 40px;
+}
+
+.btn{
+  position: absolute;
+  background: url(/images/icon-dice.svg) no-repeat center center;
+  width: 64px;
+  height: 64px;
+  background-color: var(--neon--green);
+  border-radius: 50%;
+  border: none;
+  bottom: -32px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  box-shadow: 0px 0px 40px #53FFAA;
+}
+
+@media (max-width: 850px) {
+  .card-container{
+    top: 18%;
+    left: 4%;
+  }
+  .advice{
+    height: 132px;
+    width: 295px;
+    /* left: 24px;
+    top: 79px; */
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: -0.257143px;
+    margin-bottom: 24px;
+  }
+  .advice-id{
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 3.45714px;
+  }
+}
