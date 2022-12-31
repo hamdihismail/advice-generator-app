@@ -14,7 +14,7 @@ const fetchAdvice = async () => {
       const advice = data.slip.advice;
       const id = data.slip.id;
       result.textContent = advice;
-      adviceId.textContent = `Advice # ${id}`
+      adviceId.textContent = `ADVICE # ${id}`
     } catch (error) {
       result.textContent = 'There was an error...';
     }
