@@ -1,6 +1,4 @@
-# Frontend Mentor - Advice generator app solution
-
-This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+# Advice generator app solution
 
 ## Table of contents
 
@@ -14,8 +12,8 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [Continued development](#continued-development)
 - [Author](#author)
 
-
 ## Overview
+
 This is an advice generator app using an api
 
 ### The challenge
@@ -30,18 +28,17 @@ Users should be able to:
 
 ![](/Screenshot%202022-12-31%20at%2015-00-09%20Frontend%20Mentor%20Advice%20generator%20app.png)
 
-
 ### Links
 
 - Solution URL: (https://github.com/hamdihismail/advice-generator-app)
 - Live Site URL: (https://coruscating-pasca-b8d3c0.netlify.app/)
 
 ## My process
+
 - Started with setting the style variables
 - Next I did the HTML markup
 - After that I did all the styling in CSS and media break points
 - Once the markup and styling work was done I did the Javascript functionality, fetching the data from the API and displaying it in the app
-
 
 ### Built with
 
@@ -53,17 +50,14 @@ Users should be able to:
 - JavaScript
 - API
 
-
 ### What I learned
+
 This was very helpful in letting me practice fetching data from an API and displaying that data.
 
 ### Continued development
 
 I hope to continue to get better with JavaScript and do progressively more difficult challenges.
 
-
-
 ## Author
 
-- Frontend Mentor - [@hamdihismail](https://www.frontendmentor.io/profile/hamdihismail)
-
+- Hamdi Ismail - (https://www.hamdihismail.com)
